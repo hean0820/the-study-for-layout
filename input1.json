@@ -1,0 +1,510 @@
+{
+    "FP_bbox": {
+      "min": [0.0, 0.0],
+      "max": [1000.0, 800.0]
+    },
+    "nodes": [
+      {
+        "name": "CPU_CORE0",
+        "input": [],
+        "output": ["CPU_CORE0/Pout"],
+        "attr": {
+          "height": 65.0,
+          "type": "MACRO",
+          "width": 85.0,
+          "x": 100.0,
+          "y": 100.0,
+          "layer": 0,
+          "function": "中央处理器核心0",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "CPU_CORE1",
+        "input": [],
+        "output": ["CPU_CORE1/Pout"],
+        "attr": {
+          "height": 65.0,
+          "type": "MACRO",
+          "width": 85.0,
+          "x": 200.0,
+          "y": 100.0,
+          "layer": 0,
+          "function": "中央处理器核心1",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "CPU_CORE2",
+        "input": [],
+        "output": ["CPU_CORE2/Pout"],
+        "attr": {
+          "height": 65.0,
+          "type": "MACRO",
+          "width": 85.0,
+          "x": 300.0,
+          "y": 100.0,
+          "layer": 0,
+          "function": "中央处理器核心2",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "CPU_CORE3",
+        "input": [],
+        "output": ["CPU_CORE3/Pout"],
+        "attr": {
+          "height": 65.0,
+          "type": "MACRO",
+          "width": 85.0,
+          "x": 400.0,
+          "y": 100.0,
+          "layer": 0,
+          "function": "中央处理器核心3",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "GPU_CORE0",
+        "input": [],
+        "output": ["GPU_CORE0/Pout"],
+        "attr": {
+          "height": 75.0,
+          "type": "MACRO",
+          "width": 95.0,
+          "x": 100.0,
+          "y": 200.0,
+          "layer": 0,
+          "function": "图形处理器0",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "GPU_CORE1",
+        "input": [],
+        "output": ["GPU_CORE1/Pout"],
+        "attr": {
+          "height": 75.0,
+          "type": "MACRO",
+          "width": 95.0,
+          "x": 220.0,
+          "y": 200.0,
+          "layer": 0,
+          "function": "图形处理器1",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "NPU_CORE0",
+        "input": [],
+        "output": ["NPU_CORE0/Pout"],
+        "attr": {
+          "height": 55.0,
+          "type": "MACRO",
+          "width": 70.0,
+          "x": 350.0,
+          "y": 200.0,
+          "layer": 0,
+          "function": "神经网络处理器0",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "NPU_CORE1",
+        "input": [],
+        "output": ["NPU_CORE1/Pout"],
+        "attr": {
+          "height": 55.0,
+          "type": "MACRO",
+          "width": 70.0,
+          "x": 450.0,
+          "y": 200.0,
+          "layer": 0,
+          "function": "神经网络处理器1",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "SRAM_BANK0",
+        "input": [],
+        "output": ["SRAM_BANK0/Pout"],
+        "attr": {
+          "height": 45.0,
+          "type": "MACRO",
+          "width": 110.0,
+          "x": 100.0,
+          "y": 300.0,
+          "layer": 1,
+          "function": "SRAM存储体0",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "SRAM_BANK1",
+        "input": [],
+        "output": ["SRAM_BANK1/Pout"],
+        "attr": {
+          "height": 45.0,
+          "type": "MACRO",
+          "width": 110.0,
+          "x": 230.0,
+          "y": 300.0,
+          "layer": 1,
+          "function": "SRAM存储体1",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "SRAM_BANK2",
+        "input": [],
+        "output": ["SRAM_BANK2/Pout"],
+        "attr": {
+          "height": 45.0,
+          "type": "MACRO",
+          "width": 110.0,
+          "x": 360.0,
+          "y": 300.0,
+          "layer": 1,
+          "function": "SRAM存储体2",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "SRAM_BANK3",
+        "input": [],
+        "output": ["SRAM_BANK3/Pout"],
+        "attr": {
+          "height": 45.0,
+          "type": "MACRO",
+          "width": 110.0,
+          "x": 490.0,
+          "y": 300.0,
+          "layer": 1,
+          "function": "SRAM存储体3",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "CACHE_CTRL0",
+        "input": [],
+        "output": ["CACHE_CTRL0/Pout"],
+        "attr": {
+          "height": 40.0,
+          "type": "MACRO",
+          "width": 80.0,
+          "x": 100.0,
+          "y": 380.0,
+          "layer": 1,
+          "function": "缓存控制器0",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "CACHE_CTRL1",
+        "input": [],
+        "output": ["CACHE_CTRL1/Pout"],
+        "attr": {
+          "height": 40.0,
+          "type": "MACRO",
+          "width": 80.0,
+          "x": 200.0,
+          "y": 380.0,
+          "layer": 1,
+          "function": "缓存控制器1",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "CACHE_CTRL2",
+        "input": [],
+        "output": ["CACHE_CTRL2/Pout"],
+        "attr": {
+          "height": 40.0,
+          "type": "MACRO",
+          "width": 80.0,
+          "x": 300.0,
+          "y": 380.0,
+          "layer": 1,
+          "function": "缓存控制器2",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "DSP_CORE0",
+        "input": [],
+        "output": ["DSP_CORE0/Pout"],
+        "attr": {
+          "height": 60.0,
+          "type": "MACRO",
+          "width": 70.0,
+          "x": 100.0,
+          "y": 460.0,
+          "layer": 2,
+          "function": "数字信号处理器0",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "DSP_CORE1",
+        "input": [],
+        "output": ["DSP_CORE1/Pout"],
+        "attr": {
+          "height": 60.0,
+          "type": "MACRO",
+          "width": 70.0,
+          "x": 190.0,
+          "y": 460.0,
+          "layer": 2,
+          "function": "数字信号处理器1",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "DSP_CORE2",
+        "input": [],
+        "output": ["DSP_CORE2/Pout"],
+        "attr": {
+          "height": 60.0,
+          "type": "MACRO",
+          "width": 70.0,
+          "x": 280.0,
+          "y": 460.0,
+          "layer": 2,
+          "function": "数字信号处理器2",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "VIDEO_ENC0",
+        "input": [],
+        "output": ["VIDEO_ENC0/Pout"],
+        "attr": {
+          "height": 52.0,
+          "type": "MACRO",
+          "width": 80.0,
+          "x": 100.0,
+          "y": 550.0,
+          "layer": 3,
+          "function": "视频编码器0",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "VIDEO_ENC1",
+        "input": [],
+        "output": ["VIDEO_ENC1/Pout"],
+        "attr": {
+          "height": 52.0,
+          "type": "MACRO",
+          "width": 80.0,
+          "x": 200.0,
+          "y": 550.0,
+          "layer": 3,
+          "function": "视频编码器1",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "VIDEO_DEC0",
+        "input": [],
+        "output": ["VIDEO_DEC0/Pout"],
+        "attr": {
+          "height": 52.0,
+          "type": "MACRO",
+          "width": 80.0,
+          "x": 300.0,
+          "y": 550.0,
+          "layer": 3,
+          "function": "视频解码器0",
+          "module_type": "digital"
+        }
+      },
+      {
+        "name": "PLL_CTRL0",
+        "input": [],
+        "output": ["PLL_CTRL0/Pout"],
+        "attr": {
+          "height": 40.0,
+          "type": "MACRO",
+          "width": 60.0,
+          "x": 600.0,
+          "y": 100.0,
+          "layer": 3,
+          "function": "锁相环控制器0",
+          "module_type": "sensitive"
+        }
+      },
+      {
+        "name": "PLL_CTRL1",
+        "input": [],
+        "output": ["PLL_CTRL1/Pout"],
+        "attr": {
+          "height": 40.0,
+          "type": "MACRO",
+          "width": 60.0,
+          "x": 680.0,
+          "y": 100.0,
+          "layer": 3,
+          "function": "锁相环控制器1",
+          "module_type": "sensitive"
+        }
+      },
+      {
+        "name": "PWR_MGMT0",
+        "input": [],
+        "output": ["PWR_MGMT0/Pout"],
+        "attr": {
+          "height": 42.0,
+          "type": "MACRO",
+          "width": 78.0,
+          "x": 600.0,
+          "y": 170.0,
+          "layer": 3,
+          "function": "电源管理单元0",
+          "module_type": "sensitive"
+        }
+      },
+      {
+        "name": "PWR_MGMT1",
+        "input": [],
+        "output": ["PWR_MGMT1/Pout"],
+        "attr": {
+          "height": 42.0,
+          "type": "MACRO",
+          "width": 78.0,
+          "x": 700.0,
+          "y": 170.0,
+          "layer": 3,
+          "function": "电源管理单元1",
+          "module_type": "sensitive"
+        }
+      },
+      {
+        "name": "CLK_GEN0",
+        "input": [],
+        "output": ["CLK_GEN0/Pout"],
+        "attr": {
+          "height": 38.0,
+          "type": "MACRO",
+          "width": 62.0,
+          "x": 600.0,
+          "y": 240.0,
+          "layer": 3,
+          "function": "时钟发生器0",
+          "module_type": "sensitive"
+        }
+      },
+      {
+        "name": "SEC_ENGINE0",
+        "input": [],
+        "output": ["SEC_ENGINE0/Pout"],
+        "attr": {
+          "height": 46.0,
+          "type": "MACRO",
+          "width": 72.0,
+          "x": 600.0,
+          "y": 310.0,
+          "layer": 3,
+          "function": "安全引擎0",
+          "module_type": "sensitive"
+        }
+      },
+      {
+        "name": "USB_CTRL0",
+        "input": [],
+        "output": ["USB_CTRL0/Pout"],
+        "attr": {
+          "height": 48.0,
+          "type": "MACRO",
+          "width": 70.0,
+          "x": 600.0,
+          "y": 380.0,
+          "layer": 3,
+          "function": "USB控制器0",
+          "module_type": "sensitive"
+        }
+      },
+      {
+        "name": "PCIE_CTRL0",
+        "input": [],
+        "output": ["PCIE_CTRL0/Pout"],
+        "attr": {
+          "height": 54.0,
+          "type": "MACRO",
+          "width": 86.0,
+          "x": 600.0,
+          "y": 460.0,
+          "layer": 3,
+          "function": "PCIe控制器0",
+          "module_type": "sensitive"
+        }
+      },
+      {
+        "name": "ANALOG_ADC0",
+        "input": [],
+        "output": ["ANALOG_ADC0/Pout"],
+        "attr": {
+          "height": 44.0,
+          "type": "MACRO",
+          "width": 68.0,
+          "x": 600.0,
+          "y": 550.0,
+          "layer": 3,
+          "function": "模拟ADC转换器0",
+          "module_type": "sensitive"
+        }
+      },
+      {
+        "name": "CPU_CORE0/Pout",
+        "input": ["CPU_CORE0"],
+        "output": ["SRAM_BANK0", "CACHE_CTRL0", "PWR_MGMT0"],
+        "attr": {
+          "macro_name": "CPU_CORE0",
+          "type": "MACRO_PIN",
+          "x_offset": 42.5,
+          "y_offset": 32.5,
+          "direction": "output",
+          "signal_type": "data"
+        }
+      },
+      {
+        "name": "GPU_CORE0/Pout",
+        "input": ["GPU_CORE0"],
+        "output": ["SRAM_BANK1", "VIDEO_ENC0", "PWR_MGMT0"],
+        "attr": {
+          "macro_name": "GPU_CORE0",
+          "type": "MACRO_PIN",
+          "x_offset": 47.5,
+          "y_offset": 37.5,
+          "direction": "output",
+          "signal_type": "graphics"
+        }
+      },
+      {
+        "name": "PWR_MGMT0/Pout",
+        "input": ["PWR_MGMT0"],
+        "output": ["CPU_CORE0", "GPU_CORE0", "NPU_CORE0", "SRAM_BANK0"],
+        "attr": {
+          "macro_name": "PWR_MGMT0",
+          "type": "MACRO_PIN",
+          "x_offset": 39.0,
+          "y_offset": 21.0,
+          "direction": "output",
+          "signal_type": "power"
+        }
+      },
+      {
+        "name": "CLK_GEN0/Pout",
+        "input": ["CLK_GEN0"],
+        "output": ["CPU_CORE0", "CPU_CORE1", "GPU_CORE0", "NPU_CORE0"],
+        "attr": {
+          "macro_name": "CLK_GEN0",
+          "type": "MACRO_PIN",
+          "x_offset": 31.0,
+          "y_offset": 19.0,
+          "direction": "output",
+          "signal_type": "clock"
+        }
+      }
+    ]
+  }
